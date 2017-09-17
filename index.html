@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/224ebbde7a.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+<div class="title">POMODORO CLOCK</div>
+
+<div class="breakLength">
+<p class="inlineBlock">BREAK LENGTH: </p>
+<span class="inlineBlock" data-name="BL-" value="-">
+  <i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span>
+<p class="inlineBlock" id="BL"></p>
+<span class="inlineBlock" data-name="BL+" value="+">
+  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span>
+</div>
+<div class="sessionLength">
+<p class="inlineBlock">SESSION LENGTH: </p>
+<span class="inlineBlock" data-name="SL-" value="-">
+  <i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span>
+<p class="inlineBlock" id="SL"></p>
+<span class="inlineBlock" data-name="SL+" value="+">
+  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span>
+</div>
+<div class="circleWrapper">
+<div id="circle" class="circle">
+<div class="gobo">
+<p id="displayTime"></p>
+</div><!-- end of circle2 -->
+<div  style="height: 0px" class="circle2" id="circle2"></div>
+</div><!-- end of circle  -->
+</div><!-- end of circle wrapper -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
